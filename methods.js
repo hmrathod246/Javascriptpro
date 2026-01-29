@@ -37,3 +37,9 @@ console.log("slice",str.slice(2,7))
 console.log("substring",str.substring(2,7))
 //replace
 console.log("repalce",str.replace("world","hansa"))
+//concat
+let extratext="- HELLO JS";
+console.log("concat",str.concat(extratext))
+//split
+//make string array
+console.log("split",str.split(" "));
