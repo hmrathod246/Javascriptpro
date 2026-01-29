@@ -43,3 +43,17 @@ console.log("concat",str.concat(extratext))
 //split
 //make string array
 console.log("split",str.split(" "));
+//array methods
+//push
+//pop
+// unshift
+// shift
+// concat
+// includes
+// indexof
+// Splice
+// join
+// delete
+// Map
+// filter
+// find
