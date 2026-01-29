@@ -62,7 +62,7 @@
 //reverse
 //flat
 
-// let arr=["one","two","three","four"]
+//  let arr=["one","two","three","four"]
 // console.log("default array",arr)
 // console.log("length",arr.length)
 //push work end of aaray
@@ -90,7 +90,7 @@
 //slice
 // console.log("slice",arr.slice(2,5))
 //splice
-// console.log("splice",arr.splice(2,5))
+//  console.log("splice",arr.splice(2,5))
 // console.log("old array",arr)
 //join category string to read data into file then use 
 // console.log("join",arr.join(", "))
@@ -99,13 +99,13 @@
 // console.log(arr)
 
 // console.log("array iteration method")
-// let numbers =[1,2,3,4,5]
+let numbers =[1,2,3,4,5]
 //map
 // console.log("map",numbers.map(num=>num*2))//syntax num as i >> for
 // console.log("after map ld array",numbers)
 //filter
-// console.log("filter",numbers.filter(num=>num>2))//for and if combination then use
-// console.log("after filter ld array",numbers)
+ console.log("filter",numbers.filter(num=>num>2))//for and if combination then use
+ console.log("after filter ld array",numbers)
 //foreach
 // console.log("foreac")
 // numbers.forEach(num=>console.log(num))//phonebook add delete contact inshort each element iteartion
@@ -114,7 +114,27 @@
 // console.log("sort",num.sort())
 //reverse
 // console.log("reverse",num.reverse())
-let nestedArray=[1,2,[3,4],[5,6]]
-console.log("default nested array",nestedArray)
-let flatArray=nestedArray.flat()
-console.log("flat array",flatArray)
+// let nestedArray=[1,2,[3,4],[5,6]]
+// console.log("default nested array",nestedArray)
+// let flatArray=nestedArray.flat()
+// console.log("flat array",flatArray)
+//array destructuring
+// let array =[1,2,3,4,5]
+// const [first,secound,third]=array
+// console.log(first)
+// console.log(secound)
+// console.log(third)
+
+//skipped value
+// let array1=[1,2,3,4]
+// const[first, ,third]=array1
+// console.log(first)
+// console.log(third)
+//rest opreator//spread
+// const num1=[1,2,3,4,5]
+// const[fir,second , ...rest]=num1
+// console.log(fir)
+// console.log(second)
+// console.log(rest)
+
+
